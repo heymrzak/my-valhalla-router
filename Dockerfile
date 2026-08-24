@@ -1,5 +1,8 @@
 FROM ghcr.io/gis-ops/docker-valhalla/valhalla:latest
 
+# Force root permissions so apt-get doesn't throw a permission error
+USER root
+
 # Install node runtime environments natively inside the image wrapper
 RUN apt-get update && apt-get install -y nodejs npm
 
