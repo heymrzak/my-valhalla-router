@@ -1,0 +1,10 @@
+{
+  "name": "gofy-valhalla-proxy",
+  "version": "1.0.0",
+  "description": "Stable wrapper for Valhalla on Railway",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {}
+}
